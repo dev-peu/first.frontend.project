@@ -2,7 +2,7 @@ html {
   font-size: 62.5%;
 }
 
-body * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,4 +10,10 @@ body * {
 
 .container {
   min-height: 100vh;
+
+  --cian: #5fb4a2;
+  --blue700: #203a4c;
+  --grey900: #33323d;
+  --grey000: #fafafa;
+  --grey200: #eaeaeb;
 }

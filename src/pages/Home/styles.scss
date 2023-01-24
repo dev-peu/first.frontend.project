@@ -1,0 +1,34 @@
+header {
+  padding: 6.4rem 16.5rem 9.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    gap: 4rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    li {
+      font-family: Public Sans;
+      color: var(--grey900);
+
+      font-size: 1.2rem;
+      font-weight: bold;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+      transition: 1s;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--cian);
+      }
+    }
+
+    li.ativo {
+      color: var(--cian);
+    }
+  }
+}

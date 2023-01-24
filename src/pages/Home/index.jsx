@@ -1,5 +1,10 @@
-import "./styles.css";
+import Header from "../../components/Header";
+import "./styles.scss";
 
 export default function Home() {
-  return <div className="container">aqui é a pagina home</div>;
+  return (
+    <div className="container">
+      <Header />
+    </div>
+  );
 }
