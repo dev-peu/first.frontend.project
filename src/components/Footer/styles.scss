@@ -1,0 +1,41 @@
+footer {
+  background-color: var(--grey900);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2.4rem 16.5rem;
+
+  .nav__container {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+    gap: 4rem;
+
+    a {
+      text-decoration: none;
+      color: var(--grey000);
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+      letter-spacing: 0.2rem;
+      font-family: "Public Sans";
+
+      transition: 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--cian);
+      }
+    }
+  }
+
+  .social-web {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+  }
+}

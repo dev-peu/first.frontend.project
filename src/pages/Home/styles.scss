@@ -1,34 +1,31 @@
-header {
-  padding: 6.4rem 16.5rem 9.4rem;
+.home {
+  section {
+    padding: 0 16.5rem;
+  }
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  ul {
-    gap: 4rem;
-    list-style: none;
+  .greetings {
     display: flex;
-    align-items: center;
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    li {
-      font-family: Public Sans;
-      color: var(--grey900);
-
-      font-size: 1.2rem;
-      font-weight: bold;
-      letter-spacing: 0.2rem;
-      text-transform: uppercase;
-      transition: 1s;
-      cursor: pointer;
-
-      &:hover {
-        color: var(--cian);
-      }
+    .message {
+      display: flex;
+      flex-direction: column;
+      gap: 5.3rem;
+      padding-top: 5.6rem;
+      margin-top: 24.3rem;
+      background-color: var(--grey000);
     }
 
-    li.ativo {
-      color: var(--cian);
+    .message__container {
+      padding: 0 2.7rem;
+      font-family: "Ibarra Real Nova";
+      font-weight: 700;
+      font-size: 5rem;
+      line-height: 5rem;
+
+      max-width: 48rem;
     }
   }
 }

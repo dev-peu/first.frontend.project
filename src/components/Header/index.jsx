@@ -1,6 +1,5 @@
 import "./styles.scss";
 import logo from "../../assets/logo-dark.svg";
-import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 export default function Header() {
@@ -12,10 +11,6 @@ export default function Header() {
 
   const location = useLocation();
   const page = location.pathname;
-
-  useEffect(() => {
-    console.log(location.pathname);
-  }, []);
 
   return (
     <header>
