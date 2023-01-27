@@ -11,11 +11,15 @@ export default function Home() {
           <div className="message">
             <div className="message__container">
               <p>
-                Olá, me chamo Pedro Oliveira e eu amo construir websites lindos
+                Olá, me chamo Pedro Oliveira e <br /> eu amo construir websites
+                lindos
               </p>
             </div>
-            <div>
-              <button>sobre mim</button>
+            <div className="button__container">
+              <div className="img" />
+              <div className="txt__container">
+                <span>sobre mim</span>
+              </div>
             </div>
           </div>
         </div>
