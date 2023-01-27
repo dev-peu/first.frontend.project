@@ -1,0 +1,21 @@
+.default-button {
+  all: unset;
+
+  border: 1px solid var(--grey900);
+  padding: 1.7rem 2.8rem;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: var(--grey900);
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    color: var(--grey000);
+    background-color: var(--grey900);
+  }
+}

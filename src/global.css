@@ -11,9 +11,9 @@ html {
 .container {
   min-height: 100vh;
 
-  --cian: #5fb4a2;
-  --blue700: #203a4c;
   --grey900: #33323d;
   --grey200: #eaeaeb;
   --grey000: #fafafa;
+  --blue700: #203a4c;
+  --cian: #5fb4a2;
 }
