@@ -1,0 +1,19 @@
+.contato-component__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15rem;
+
+  .txt {
+    font-family: "Ibarra Real Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+
+    letter-spacing: -0.357143px;
+    color: var(--grey900);
+
+    max-width: 35.5rem;
+  }
+}

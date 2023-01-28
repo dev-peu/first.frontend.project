@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import me from "../../assets/home/profile.jpg";
 import "./styles.scss";
 import Button from "../../components/Button";
+import Contato from "../../components/Contato";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
       </section>
       <section className="about__container">
         <div className="about">
-          <img src={me} alt="photo of me" />
+          <img src={me} alt="me" />
           <div className="content">
             <h1>Sobre mim</h1>
             <p>
@@ -46,6 +47,9 @@ export default function Home() {
             <Button>IR PARA PORTFOLIO</Button>
           </div>
         </div>
+      </section>
+      <section>
+        <Contato />
       </section>
       <Footer />
     </div>
