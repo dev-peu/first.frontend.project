@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="container home">
       <Header />
-      <section>
+      <section className="greetings__container">
         <div className="greetings">
           <div className="message">
             <div className="message__container">
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="about__container">
         <div className="about">
           <img src={me} alt="photo of me" />
           <div className="content">
@@ -37,7 +37,7 @@ export default function Home() {
               modernas de CSS e escrevendo um JavaScript limpo. Quando estou
               escrevendo código JavaScript, na maioria das vezes estou usando
               React, mas posso me adapta para qualquer ferramenta se necessário.
-              Moro em Londres, UK, mas também seria feliz trabalhando
+              Moro em Monte Azul-MG, mas também seria feliz trabalhando
               remotamente e tenho experiência em times remotos. Quando não estou
               codando, poderá me achar fora de casa. Eu adoro estar próximo a
               natureza seja para uma caminhada, corrida ou ciclismo. Eu amaria
