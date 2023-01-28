@@ -81,16 +81,17 @@
 
   .about {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 15rem;
+    gap: 5rem;
 
     img {
-      width: 55rem;
-      height: 75rem;
+      max-width: 55rem;
+      max-height: 75rem;
     }
 
     .content {
-      width: 43rem;
+      max-width: 43rem;
       display: flex;
       flex-direction: column;
       align-items: center;
