@@ -1,9 +1,10 @@
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
+import { Link } from "react-router-dom";
 import me from "../../assets/home/profile.jpg";
-import "./styles.scss";
 import Button from "../../components/Button";
 import Contato from "../../components/Contato";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import "./styles.scss";
 
 export default function Home() {
   return (
@@ -18,16 +19,18 @@ export default function Home() {
                 lindos
               </p>
             </div>
-            <div className="button__container">
-              <div className="img" />
-              <div className="txt__container">
-                <span>sobre mim</span>
+            <a href="#about-me">
+              <div className="button__container">
+                <div className="img" />
+                <div className="txt__container">
+                  <span>sobre mim</span>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
-      <section className="about__container">
+      <section id="about-me" className="about__container">
         <div className="about">
           <img src={me} alt="me" />
           <div className="content">
@@ -44,7 +47,9 @@ export default function Home() {
               natureza seja para uma caminhada, corrida ou ciclismo. Eu amaria
               se você desse uma olhada no meu trabalho.
             </p>
-            <Button>IR PARA PORTFOLIO</Button>
+            <Link to="/portfolio">
+              <Button>Ir para pórfolio</Button>
+            </Link>
           </div>
         </div>
       </section>

@@ -6,9 +6,8 @@ import Contato from "../pages/Contato";
 export default function MyRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to={"/home"} />} />
+      <Route path="*" element={<Navigate to={"/home"} />} />
       <Route path="/home" element={<Home />} />
-      <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/contato" element={<Contato />} />
     </Routes>
   );
