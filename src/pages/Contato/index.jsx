@@ -29,8 +29,8 @@ export default function Contato() {
               empresa Britânica. Mas também estou feliz em escutar sobre
               oportunidades remotas. Sou uma pessoa trabalhadora e positiva que
               sempre fará as tasks com um senso de propósito e atenção aos
-              detalhes. Fique livre para checar meu perfis abaixo e entrar em
-              contato utilizando o formulário.
+              detalhes. Fique livre para checar meu perfis abaixo, use um deles
+              para entrar em contato comigo!
             </p>
             <ul className="social-web">
               {socialOptions.map((opt) => (
@@ -49,18 +49,18 @@ export default function Contato() {
             <div className="inputs column">
               <label htmlFor="">
                 Nome
-                <input type="text" />
+                <input disabled type="text" />
               </label>
               <label htmlFor="">
                 E-mail
-                <input type="text" />
+                <input disabled type="text" />
               </label>
               <label htmlFor="">
                 Mensagem
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea disabled name="" id="" cols="30" rows="10"></textarea>
               </label>
             </div>
-            <button>Enviar</button>
+            <button type="button">Enviar</button>
           </form>
         </section>
       </main>
