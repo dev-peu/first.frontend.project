@@ -1,6 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
-import Portfolio from "../pages/Portfolio";
 import Contato from "../pages/Contato";
 
 export default function MyRoutes() {

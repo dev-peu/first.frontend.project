@@ -1,5 +1,6 @@
 import "./styles.scss";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 export default function Contato() {
   return (
@@ -8,7 +9,9 @@ export default function Contato() {
         <b>Interessado em fazer projetos comigo?</b>
       </div>
 
-      <Button>contato</Button>
+      <Button>
+        <Link to={"/contato"}>contato</Link>
+      </Button>
     </div>
   );
 }
