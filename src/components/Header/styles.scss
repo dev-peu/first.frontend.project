@@ -32,3 +32,18 @@ header {
     }
   }
 }
+
+@media (max-width: 1000px) {
+  header {
+    padding: 2rem 1rem;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+
+    ul {
+      a {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
