@@ -6,6 +6,10 @@ footer {
 
   padding: 2.4rem 16.5rem;
 
+  .logo--responsiva {
+    display: none;
+  }
+
   .nav__container {
     display: flex;
     align-items: center;
@@ -37,6 +41,37 @@ footer {
       display: flex;
       align-items: center;
       gap: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  footer {
+    padding: 2rem 2rem;
+    flex-direction: column-reverse;
+    gap: 3rem;
+
+    .logo {
+      display: none;
+    }
+    .logo--responsiva {
+      display: flex;
+    }
+
+    .nav__container {
+      gap: 3rem;
+      width: 100%;
+      justify-content: center;
+      margin-left: -2rem;
+      a {
+        font-size: 1.6rem;
+      }
+    }
+
+    .social-web {
+      img {
+        width: 3.5rem;
+      }
     }
   }
 }

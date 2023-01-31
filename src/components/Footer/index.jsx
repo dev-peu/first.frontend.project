@@ -17,9 +17,10 @@ const socialOptions = [
 export default function Footer() {
   return (
     <footer>
+      <img class="logo--responsiva" src={logo} alt="logo" />
       <ul className="nav__container">
         <li>
-          <img src={logo} alt="logo" />
+          <img className="logo" src={logo} alt="logo" />
         </li>
         <li>
           <Link to="/home">Home</Link>
