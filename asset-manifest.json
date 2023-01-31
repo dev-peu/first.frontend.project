@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/first.frontend.project/static/css/main.b53f5612.css",
-    "main.js": "/first.frontend.project/static/js/main.64ae2d29.js",
+    "main.css": "/first.frontend.project/static/css/main.4694d19e.css",
+    "main.js": "/first.frontend.project/static/js/main.4b9c345b.js",
     "static/media/profile.jpg": "/first.frontend.project/static/media/profile.6542ccdf1bdde067ccbe.jpg",
     "static/media/image-homepage-hero.jpg": "/first.frontend.project/static/media/image-homepage-hero.10f998fc80de042e2601.jpg",
     "static/media/github-light.svg": "/first.frontend.project/static/media/github-light.799f22280a62ad030e1dc04eac299692.svg",
@@ -15,11 +15,11 @@
     "static/media/down-arrows.svg": "/first.frontend.project/static/media/down-arrows.2bd23bfb7742408a56d7.svg",
     "static/media/down-arrows2.svg": "/first.frontend.project/static/media/down-arrows2.2da1efeff1e7d788780a.svg",
     "static/media/logo-dark.svg": "/first.frontend.project/static/media/logo-dark.6b2775f27638e19c166d604dbba6f59d.svg",
-    "main.b53f5612.css.map": "/first.frontend.project/static/css/main.b53f5612.css.map",
-    "main.64ae2d29.js.map": "/first.frontend.project/static/js/main.64ae2d29.js.map"
+    "main.4694d19e.css.map": "/first.frontend.project/static/css/main.4694d19e.css.map",
+    "main.4b9c345b.js.map": "/first.frontend.project/static/js/main.4b9c345b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b53f5612.css",
-    "static/js/main.64ae2d29.js"
+    "static/css/main.4694d19e.css",
+    "static/js/main.4b9c345b.js"
   ]
 }
