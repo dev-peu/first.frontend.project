@@ -17,3 +17,12 @@
     max-width: 35.5rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .contato-component__container {
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+}

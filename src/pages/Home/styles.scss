@@ -130,5 +130,37 @@
 
 @media (max-width: 1000px) {
   .home {
+    section {
+      padding: 0;
+
+      .greetings {
+        background-size: contain;
+        margin-top: -21rem;
+
+        .message {
+          padding: 0;
+
+          .message__container {
+            padding: 0 2rem;
+
+            p {
+              text-align: center;
+            }
+          }
+
+          a {
+            justify-content: center;
+          }
+        }
+      }
+
+      .about {
+        flex-direction: column;
+
+        .content {
+          padding: 2rem;
+        }
+      }
+    }
   }
 }
